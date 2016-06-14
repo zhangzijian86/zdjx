@@ -209,37 +209,65 @@ function wpyou_options() {
                 </td>
             </tr>
             <tr valign="top">
-                <th scope="row"><label>新闻分类ID<span class="description">(数值)</span></label></th>
+                <th scope="row"><label>技术跟踪分类ID<span class="description">(数值)</span></label></th>
                 <td>
                     <input class="regular-text" style="width:35em;" type="text" name="wpyou_news_id" value="<?php echo get_option('wpyou_news_id'); ?>" />
                     <br />
-                    <span class="description">设置新闻分类ID (多个ID间用英文逗号","隔开, 例如: 1,2,3)<br />▪ 如没有新闻分类, 则无需设置<br />▪ <a title="如何查看分类ID" href="http://www.wpyou.com/how-to-find-the-category-id.html" target="_blank">如何获取分类ID</a></span>
+                    <span class="description">设置技术跟踪分类ID (多个ID间用英文逗号","隔开, 例如: 1,2,3)<br />▪ 如没有技术跟踪分类, 则无需设置<br />▪ <a title="如何查看分类ID" href="http://www.wpyou.com/how-to-find-the-category-id.html" target="_blank">如何获取分类ID</a></span>
                 </td>
         	</tr>
             <tr valign="top">
-                <th scope="row"><label>解决方案分类ID<span class="description">(数值)</span></label></th>
+                <th scope="row"><label>工作动态分类ID<span class="description">(数值)</span></label></th>
                 <td>
                     <input class="regular-text" style="width:35em;" type="text" name="wpyou_solution_id" value="<?php echo get_option('wpyou_solution_id'); ?>" />
                     <br />
-                    <span class="description">设置解决方案分类ID (多个ID间用英文逗号","隔开, 例如: 1,2,3)<br />▪ 如没有解决方案分类, 则无需设置<br />▪ <a title="如何查看分类ID" href="http://www.wpyou.com/how-to-find-the-category-id.html" target="_blank">如何获取分类ID</a></span>
+                    <span class="description">设置工作动态分类ID (多个ID间用英文逗号","隔开, 例如: 1,2,3)<br />▪ 如没有工作动态分类, 则无需设置<br />▪ <a title="如何查看分类ID" href="http://www.wpyou.com/how-to-find-the-category-id.html" target="_blank">如何获取分类ID</a></span>
                 </td>
         	</tr>
             <tr valign="top">
-                <th scope="row"><label>产品中心分类ID<span class="description">(数值)</span></label></th>
+                <th scope="row"><label>典型案例分类ID<span class="description">(数值)</span></label></th>
                 <td>
                     <input class="regular-text" style="width:35em;" type="text" name="wpyou_products_id" value="<?php echo get_option('wpyou_products_id'); ?>" />
                     <br />
-                    <span class="description">设置产品中心分类ID (多个ID间用英文逗号","隔开, 例如: 1,2,3)<br />▪ 如没有产品中心分类, 则无需设置<br />▪ <a title="如何查看分类ID" href="http://www.wpyou.com/how-to-find-the-category-id.html" target="_blank">如何获取分类ID</a></span>
+                    <span class="description">设置典型案例分类ID (多个ID间用英文逗号","隔开, 例如: 1,2,3)<br />▪ 如没有典型案例分类, 则无需设置<br />▪ <a title="如何查看分类ID" href="http://www.wpyou.com/how-to-find-the-category-id.html" target="_blank">如何获取分类ID</a></span>
                 </td>
         	</tr>
             <tr valign="top">
-                <th scope="row"><label>合作伙伴分类ID<span class="description">(数值)</span></label></th>
+                <th scope="row"><label>咨询服务分类ID<span class="description">(数值)</span></label></th>
                 <td>
                     <input class="regular-text" style="width:35em;" type="text" name="wpyou_partner_id" value="<?php echo get_option('wpyou_partner_id'); ?>" />
                     <br />
-                    <span class="description">合作伙伴分类ID (多个ID间用英文逗号","隔开, 例如: 1,2,3)<br />▪ 如没有合作伙伴分类, 则无需设置<br />▪ <a title="如何查看分类ID" href="http://www.wpyou.com/how-to-find-the-category-id.html" target="_blank">如何获取分类ID</a></span>
+                    <span class="description">咨询服务分类ID (多个ID间用英文逗号","隔开, 例如: 1,2,3)<br />▪ 如没有咨询服务分类, 则无需设置<br />▪ <a title="如何查看分类ID" href="http://www.wpyou.com/how-to-find-the-category-id.html" target="_blank">如何获取分类ID</a></span>
                 </td>
         	</tr>
+
+            <tr valign="top">
+                <th scope="row"><label>技术推广分类ID<span class="description">(数值)</span></label></th>
+                <td>
+                    <input class="regular-text" style="width:35em;" type="text" name="wpyou_new_products" value="<?php echo get_option('wpyou_new_products'); ?>" />
+                    <br />
+                    <span class="description">技术推广分类ID (多个ID间用英文逗号","隔开, 例如: 1,2,3)<br />▪ 如没有技术推广分类, 则无需设置<br />▪ <a title="如何查看分类ID" href="http://www.wpyou.com/how-to-find-the-category-id.html" target="_blank">如何获取分类ID</a></span>
+                </td>
+        	</tr>
+
+            <tr valign="top">
+                <th scope="row"><label>教育培训分类ID<span class="description">(数值)</span></label></th>
+                <td>
+                    <input class="regular-text" style="width:35em;" type="text" name="wpyou_hot_products" value="<?php echo get_option('wpyou_hot_products'); ?>" />
+                    <br />
+                    <span class="description">教育培训分类ID (多个ID间用英文逗号","隔开, 例如: 1,2,3)<br />▪ 如没有教育培训分类, 则无需设置<br />▪ <a title="如何查看分类ID" href="http://www.wpyou.com/how-to-find-the-category-id.html" target="_blank">如何获取分类ID</a></span>
+                </td>
+        	</tr>
+
+            <tr valign="top">
+                <th scope="row"><label>主题专栏分类ID<span class="description">(数值)</span></label></th>
+                <td>
+                    <input class="regular-text" style="width:35em;" type="text" name="wpyou_sliderposts" value="<?php echo get_option('wpyou_sliderposts'); ?>" />
+                    <br />
+                    <span class="description">主题专栏分类ID (多个ID间用英文逗号","隔开, 例如: 1,2,3)<br />▪ 如没有主题专栏分类, 则无需设置<br />▪ <a title="如何查看分类ID" href="http://www.wpyou.com/how-to-find-the-category-id.html" target="_blank">如何获取分类ID</a></span>
+                </td>
+        	</tr>
+
             <tr valign="top" class="alt">
                 <th scope="row"><label><strong>内页边栏位置</strong><span class="description"></span></label></th>
                 <td>
