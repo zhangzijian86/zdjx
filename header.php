@@ -67,7 +67,7 @@ var cpro_id = "u916163";
     <ul class="navi">
         <li class="nl <?php if ( is_home()){ echo 'current-cat'; } ?>"><a href="<?php echo get_option('home'); ?>/">首页</a></li>
         
-         <?php wp_list_categories('title_li=0&orderby=name&hide_empty=0&show_count=0&depth=2&exclude='); ?>
+         <?php wp_list_categories('title_li=0&orderby=name&hide_empty=0&show_count=0&depth=2&exclude=1'); ?>
                 	<?php wp_list_pages('title_li=&sort_column=post_date&sort_order=ASC&depth=2&exclude=')?>
 
     </ul>
