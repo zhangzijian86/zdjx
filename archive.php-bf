@@ -25,7 +25,7 @@
 		}
 	elseif(in_category($partnersArrays) || post_is_in_descendant_category( $partnersArrays))
 		{
-			include('archive_partner.php');
+			include('archive_partners.php');
 		}
 	else
 		{ include('archive_main.php'); }
