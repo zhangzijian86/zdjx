@@ -77,16 +77,16 @@ ol, ul {list-style: none;}
 /*header end*/
 /*content start*/
 #main_left {height:302px; overflow:hidden; margin-bottom:10px;}
-#aboutus { float:left; width:440px; overflow:hidden; height:300px; overflow:hidden; }
+#aboutus { float:left; width:475px; overflow:hidden; height:300px; overflow:hidden; }
 .aboutus_title,.product_title,.solution_title,.news_title { height: 31px;}
 .Container_title { float: left; margin: 6px 0 0 42px; _margin: 6px 0 0 20px; font-size: 14px; }
 .more { float: right; margin: 5px 19px 0 0; }
 .Container_title a,.more a {color:#618E00; line-height: 25px; }
-.aboutus_title {background: url(images/common.png) -47px -102px; }
+.aboutus_title {background: url(images/common.png) -47px -141px; }
 .aboutus_cont {height: 240px;line-height: 1.8em;_line-height: 1.6em;overflow: hidden;text-indent: 2em;padding: 10px;}
 .aboutus_border {border: 1px solid #CDCDCD; border-top: none; height: 268px; }
 
-#Product{ width:500px; float:right; height: 300px; overflow:hidden; }
+#Product{ width:475px; float:right; height: 300px; overflow:hidden; }
 .product_border {border: 1px solid #CDCDCD; border-top: none; height: 263px; padding-top: 5px; padding-left: 2px; }
 .product_title {background: url(images/common.png) -47px -141px; }
 #Product ul li{display:block; float:left; padding:6px 10px; position:relative;}
